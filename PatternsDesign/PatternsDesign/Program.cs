@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_1;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_2;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_3;
+using PatternsDesign.Behavioral_Patterns.Strategy.Ex_4;
 
 namespace PatternsDesign
 {
@@ -28,6 +29,13 @@ namespace PatternsDesign
             paymentStrategy.ProcessPayment(3000);
             paymentStrategy2.ProcessPayment(5000);
 
+            var products = new List<Product>();
+
+            var expensiveFilter = new ProductFilter(new ExpensiveFilter());
+            var expensiveProducts = expensiveFilter.Filter(products);
+
+            var cheapFilter = new ProductFilter(new CheapFilter());
+            var cheapProducts = cheapFilter.Filter(products);
 
         }
     }

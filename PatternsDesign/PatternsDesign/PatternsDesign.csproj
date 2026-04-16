@@ -57,6 +57,11 @@
     <Compile Include="Behavioral Patterns\Strategy\Ex-3\PaypalAdapter.cs" />
     <Compile Include="Behavioral Patterns\Strategy\Ex-3\Stripe.cs" />
     <Compile Include="Behavioral Patterns\Strategy\Ex-3\StripeAdapter.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-4\CheapFilter.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-4\ExpensiveFilter.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-4\IProductFilterStrategy.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-4\Product.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-4\ProductFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -134,7 +139,6 @@
     <Folder Include="Behavioral Patterns\State\Ex-6\" />
     <Folder Include="Behavioral Patterns\State\Ex-7\" />
     <Folder Include="Behavioral Patterns\State\Ex-8\" />
-    <Folder Include="Behavioral Patterns\Strategy\Ex-4\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-5\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-6\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-7\" />
