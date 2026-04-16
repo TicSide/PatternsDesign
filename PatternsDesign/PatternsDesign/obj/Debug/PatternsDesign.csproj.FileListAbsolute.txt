@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\bin\Debug\PatternsDesign.exe.config
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\bin\Debug\PatternsDesign.exe
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\bin\Debug\PatternsDesign.pdb
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\obj\Debug\PatternsDesign.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\obj\Debug\PatternsDesign.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\obj\Debug\PatternsDesign.exe
+C:\Users\User\Desktop\Nueva carpeta\PatternsDesign\PatternsDesign\PatternsDesign\obj\Debug\PatternsDesign.pdb
