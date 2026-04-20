@@ -9,7 +9,7 @@ Also I put how use it in the main file *"Program.cs"*, so you can see how to use
 # Example
 - Folder Creational Patterns
 - Folder Singlenton
-- Folder Examples - N#
+- Folder Examples - Ex-#
 - Diferents files with the code of the design pattern and the explanation of how it works.
 - A file .md with a summary of the design pattern and its benefits.
 - A UML diagram with the structure of the design pattern and its relationships between classes and objects.

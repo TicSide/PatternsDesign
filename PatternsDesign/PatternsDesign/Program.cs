@@ -7,6 +7,7 @@ using PatternsDesign.Behavioral_Patterns.Strategy.Ex_1;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_2;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_3;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_4;
+using PatternsDesign.Structural_Patterns.Adapter.Ex_1;
 
 namespace PatternsDesign
 {
@@ -35,7 +36,12 @@ namespace PatternsDesign
             var expensiveProducts = expensiveFilter.Filter(products);
 
             var cheapFilter = new ProductFilter(new CheapFilter());
-            var cheapProducts = cheapFilter.Filter(products);           
+            var cheapProducts = cheapFilter.Filter(products);
+
+
+            ICalculator calculator = new OldCalculatorAdapter(new OldCalculator());
+            var op=calculator.Add(3,5);
+            Console.WriteLine("Result of addition: " + op);
 
         }
     }
