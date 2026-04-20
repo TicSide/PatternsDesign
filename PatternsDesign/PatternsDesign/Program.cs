@@ -35,7 +35,7 @@ namespace PatternsDesign
             var expensiveProducts = expensiveFilter.Filter(products);
 
             var cheapFilter = new ProductFilter(new CheapFilter());
-            var cheapProducts = cheapFilter.Filter(products);
+            var cheapProducts = cheapFilter.Filter(products);           
 
         }
     }
