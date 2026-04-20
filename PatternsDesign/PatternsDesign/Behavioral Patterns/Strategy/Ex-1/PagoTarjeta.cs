@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternsDesign.Behavioral_Patterns.Strategy.Ex_1
 {
+    //Implementar la estrategia concreta
+    //Concrete Strategies
     public class PagoTarjeta : IPagoStrategy
     {
         public void Pagar(decimal monto)
