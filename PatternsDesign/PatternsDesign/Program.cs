@@ -8,6 +8,7 @@ using PatternsDesign.Behavioral_Patterns.Strategy.Ex_2;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_3;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_4;
 using PatternsDesign.Structural_Patterns.Adapter.Ex_1;
+using PatternsDesign.Structural_Patterns.Adapter.Ex_2;
 
 namespace PatternsDesign
 {
@@ -42,6 +43,11 @@ namespace PatternsDesign
             ICalculator calculator = new OldCalculatorAdapter(new OldCalculator());
             var op=calculator.Add(3,5);
             Console.WriteLine("Result of addition: " + op);
+
+            IPrinter printer= new PrinterLegacyAdapter(new PrinterLegacy());
+            printer.Print("Hello, World!");
+
+
 
         }
     }
