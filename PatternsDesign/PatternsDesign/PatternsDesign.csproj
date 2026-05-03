@@ -62,6 +62,7 @@
     <Compile Include="Behavioral Patterns\Strategy\Ex-4\IProductFilterStrategy.cs" />
     <Compile Include="Behavioral Patterns\Strategy\Ex-4\Product.cs" />
     <Compile Include="Behavioral Patterns\Strategy\Ex-4\ProductFilter.cs" />
+    <Compile Include="Behavioral Patterns\Strategy\Ex-5\NotificationManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural Patterns\Adapter\Ex-1\ICalculator.cs" />
@@ -70,6 +71,12 @@
     <Compile Include="Structural Patterns\Adapter\Ex-2\IPrinter.cs" />
     <Compile Include="Structural Patterns\Adapter\Ex-2\PrinterLegacy.cs" />
     <Compile Include="Structural Patterns\Adapter\Ex-2\PrinterLegacyAdapter.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-3\ITemperature.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-3\TemperatureService.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-3\TemperatureServiceAdapter.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-4\IPayment.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-4\PaymentGateway.cs" />
+    <Compile Include="Structural Patterns\Adapter\Ex-4\PaymentGatewayAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -148,7 +155,6 @@
     <Folder Include="Behavioral Patterns\State\Ex-6\" />
     <Folder Include="Behavioral Patterns\State\Ex-7\" />
     <Folder Include="Behavioral Patterns\State\Ex-8\" />
-    <Folder Include="Behavioral Patterns\Strategy\Ex-5\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-6\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-7\" />
     <Folder Include="Behavioral Patterns\Strategy\Ex-8\" />
@@ -208,8 +214,6 @@
     <Folder Include="Creational Patterns\Singlenton\Ex-6\" />
     <Folder Include="Creational Patterns\Singlenton\Ex-7\" />
     <Folder Include="Creational Patterns\Singlenton\Ex-8\" />
-    <Folder Include="Structural Patterns\Adapter\Ex-3\" />
-    <Folder Include="Structural Patterns\Adapter\Ex-4\" />
     <Folder Include="Structural Patterns\Adapter\Ex-5\" />
     <Folder Include="Structural Patterns\Adapter\Ex-6\" />
     <Folder Include="Structural Patterns\Adapter\Ex-7\" />

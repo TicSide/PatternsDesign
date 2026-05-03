@@ -9,6 +9,8 @@ using PatternsDesign.Behavioral_Patterns.Strategy.Ex_3;
 using PatternsDesign.Behavioral_Patterns.Strategy.Ex_4;
 using PatternsDesign.Structural_Patterns.Adapter.Ex_1;
 using PatternsDesign.Structural_Patterns.Adapter.Ex_2;
+using PatternsDesign.Structural_Patterns.Adapter.Ex_3;
+using PatternsDesign.Structural_Patterns.Adapter.Ex_4;
 
 namespace PatternsDesign
 {
@@ -47,7 +49,13 @@ namespace PatternsDesign
             IPrinter printer= new PrinterLegacyAdapter(new PrinterLegacy());
             printer.Print("Hello, World!");
 
+            ITemperature temperature = new TemperatureServiceAdapter(new TemperatureService());
+            var op1 = temperature.GetTemperature();
+            Console.WriteLine("Result of addition: " + op1);
 
+
+            IPayment payment = new PaymentGatewayAdapter(new PaymentGateway());
+            payment.Pay(300);
 
         }
     }
